@@ -1,0 +1,22 @@
+{
+  "name": "warehouse-picker-tour",
+  "version": "0.1.0",
+  "description": "Functions for warehouse-path and their algos",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --timeout=3000",
+    "clean": "eslint src/ --fix"
+  },
+  "author": "Jeremy Fourna <jeremyfourna@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pathfinding": "^0.4.18",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "eslint": "^4.14.0",
+    "mocha": "^3.4.2",
+    "nyc": "^11.0.1"
+  }
+}
